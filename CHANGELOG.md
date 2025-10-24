@@ -18,7 +18,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [v1.0.2] – Unreleased
+
+### Added
+- …
+
+### Changed
+- …
+
+### Fixed
+- …
+
+### Deprecated
+- …
+
+### Removed
+- …
+
+### Security
+- …
+
+---
+
 ## [v1.0.1] – 2025-10-24
+
 ### Added
 - Added **Project Overview** and **Prerequisites** sections to `README_AIMM.md`.
 - Created structured **CHANGELOG.md** file (this one).
@@ -38,6 +61,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 
 ## [v1.0.0] – 2025-10-22
+
 ### Added
 - Initial release of **AIMM (Adaptive Intelligence Meme Machine)**.
 - Added `README_AIMM.md` with core overview, installation guide, and architecture table.
@@ -46,5 +70,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+[v1.0.2]: https://github.com/QSOLKCB/AIMM/releases/tag/v1.0.2  
 [v1.0.1]: https://github.com/QSOLKCB/AIMM/releases/tag/v1.0.1  
 [v1.0.0]: https://github.com/QSOLKCB/AIMM/releases/tag/v1.0.0
