@@ -1,51 +1,27 @@
-# Changelog
+## 🧠 AIMM Docs Enhancement (v1.0.1)
 
-All notable changes to this project will be documented in this file.
+**Summary:**  
+This PR updates documentation and changelog for `v1.0.1`, aligning the repo with the current QSOLKCB structure and improving clarity for new contributors.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)  
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+### ✨ Changes
+- Added **Project Overview** and **Prerequisites** sections to `README_AIMM.md`.
+- Introduced a full **CHANGELOG.md** following Keep-a-Changelog format.
+- Updated headings, metadata, and badge consistency.
+- Minor formatting and grammar improvements.
 
----
+### 📜 Release
+Tag: `v1.0.1`  
+Date: 2025-10-24  
+Type: Documentation-only update (no code changes).
 
-## [Unreleased]
-
-### Added
-- …
-
-### Changed
-- …
-
-### Fixed
-- …
-
-### Deprecated
-- …
-
-### Removed
-- …
-
-### Security
-- …
+### ✅ Checklist
+- [x] README renders correctly on GitHub
+- [x] CHANGELOG versioned and formatted
+- [x] License and badges verified
+- [x] Tag matches release page
 
 ---
 
-## [v1.0.1] – 2025-10-24
-### Added
-- Added **Project Overview** section to `README_AIMM.md`
-- Added **Prerequisites** section covering OS, Python version, optional hardware
-- …
-
-### Changed
-- Improved heading consistency in README
-- Added “Last updated” metadata line
-
-### Fixed
-- Minor Markdown formatting issues (bad heading levels, missing rule lines)
-
----
-
-## [v1.0.0] – YYYY-MM-DD
-### Added
-- Initial release of AIMM with README, core files, quantum-meme engine groundwork
-- …
-
+**Reviewers:**  
+@EmergentMonk @QSOLKCB/core  
+_“AIMM: The adaptive mind behind the meme.”_
