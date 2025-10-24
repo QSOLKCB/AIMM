@@ -1,151 +1,120 @@
-# QSOLKCB: Quantum-Solutions-Incorporated Meme Company (QSOL-IMC Labs)
+AIMM: Adaptive Intelligence Meme Machine
 
-[![CI](https://github.com/QSOLKCB/AIMM/workflows/Proof%20HTML/badge.svg)](https://github.com/QSOLKCB/AIMM/actions)
-[![Docker](https://img.shields.io/badge/docker-available-blue.svg)](https://hub.docker.com/r/qsolkcb/aimm)
+Part of the QSOLKCB
+ Initiative — Quantum-Secure Optical/Laser-Incorporated Meme Company
 
-**Welcome to QSOLKCB**, the stealthy GitHub nerve center for *QSOL-IMC*—where quantum error correction meets meme-fueled anarchy to roast scammers into a superposition of fail. Born from EmergentMonk's wizardry (https://github.com/EmergentMonk), we're engineering the future of secure, hilarious anti-scam tech: Qiskit-powered randomness, laser-precise burns, and multimodal chaos that turns spam calls into viral gold. #fcukscammers
+“Where AI learns to roast, adapt, and meme faster than a scammer can hang up.”
 
-## 🚀 Mission: Meme the Void
-QSOLKCB isn't just code—it's a quantum meme revolution. We fuse:
-- **Quantum Security**: Fault-tolerant QEC (nisq-to-ftqc magic from [qiskit-qec-wrappers](https://github.com/EmergentMonk/qiskit-qec-wrappers-nisq-to-ftqc)) for unhackable spam hashes.
-- **Optical/Laser Kernel**: Photon-entropy RNG for unpredictable prick roasts (nod to our laser-comms toolkit).
-- **Meme Company Vibes**: Doge-tier taunts, Rickroll loops, and 7-11/Pajit zingers to waste scammer time.
-- **Multimodal Magic**: Audio-reactive trolling (pace burns via waveform stress, inspired by [proof-qec-dna-rubiks-audio-reactive-viz](https://github.com/EmergentMonk/proof-qec-dna-rubiks-audio-reactive-viz)) + ASCII viz for shareable Roast Radio.
+⚡ Overview
 
-**Flagship Drop**: [lambroast.py](lambroast.py) – The *Quantum Meme Roaster*. A savage S23 bot that auto-trolls verified spam with quantum-random burns ("Your scam’s a sad Pepe in a 7-11 void!"). TCPA-compliant, locked to Android's `BlockedNumberContract`, and ready to entangle fraudsters.
+AIMM (Adaptive Intelligence Meme Machine) is the cognitive core of the QSOLKCB stack — a modular AI engine designed to auto-generate, adapt, and deploy quantum-secure meme intelligence across multiple modalities (text, audio, image, and optical/laser systems).
 
-> **Sample Prick Burn** (via QSOLKCB Hash):  
-> ```
-> wow
->  such scam
->    very fail
->      much roast
-> /_/\  
-> ( o.o ) 
->  > ^ < 
-> ```
-> *Doge says: Your IRS pitch decohered harder than a qubit in a microwave.*
+Think of AIMM as the AI consciousness inside the memeverse: it listens, learns, and fires back with calibrated roasts, leveraging QSOL’s quantum entropy for creative chaos and anti-scam warfare.
 
-## 📁 Repos & Tools
-- **[LambRoaster](https://github.com/QSOLKCB/LambRoaster)**: Home of `lambroast.py` – Quantum prick for scammer callbacks. Fork it, roast 'em!
-- **[qiskit-qec-wrappers](https://github.com/EmergentMonk/qiskit-qec-wrappers-nisq-to-ftqc)**: Core QEC for robust meme gen (forked into QSOLKCB soon).
-- **[proof-qec-dna-rubiks-audio-reactive-viz](https://github.com/EmergentMonk/proof-qec-dna-rubiks-audio-reactive-viz)**: Audio-viz inspo for reactive trolling.
-- **Coming Soon**: QSOL-IMC API for meme-secure VoIP (Twilio + laser entropy).
+🧠 Core Functions
 
-## 🛠 Quick Start (S23/Termux Vibes)
-1. **Clone & Install**:
-   ```bash
-   git clone https://github.com/QSOLKCB/LambRoaster.git
-   cd LambRoaster
-   pip install -r requirements.txt  # qiskit, numpy, etc.
-   ```
-2. **Run the Roast**:
-   ```bash
-   python lambroast.py
-   # Mock inbound: +1-555-LAMBSCAM
-   # Enter scammer BS: "Your warranty expired!"
-   # Output: Quantum burn + Doge ASCII. 🔥
-   ```
-3. **Test Spam Lock**: Only verified numbers get the lamb treatment—manual callbacks, one-shot rule.
+Adaptive Roast Engine – Real-time text and audio generation for contextual burns.
 
-**Requirements** (`requirements.txt`):
-```
-qiskit==0.46.0
-qiskit-aer==0.15.0
-numpy==1.26.4
-# Whisper/Twilio for prod STT/VoIP
-```
+Quantum Entropy Integration – Pulls true randomness from the QEC Wrappers
+ to ensure every meme is unique.
 
-## 🌐 Environment Setup Guide
+Optical/Laser Bridge – Optional hardware integration for photon-based data encoding.
 
-### Development Environments
+Multimodal Inference Stack – Integrates Whisper, OpenAI APIs, and local LLMs for voice + text reactions.
 
-#### Local Development (Recommended)
-```bash
-# Python 3.8+ required
-python --version  # Should be 3.8+
+Self-Regulating Ethics Filter – Keeps the burns spicy but TCPA-safe (because FCC fines are not memes).
 
-# Virtual environment setup
-python -m venv qsolkcb-env
-source qsolkcb-env/bin/activate  # Linux/Mac
-# qsolkcb-env\Scripts\activate  # Windows
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-#### Android/Termux Setup
-For mobile quantum meme warfare:
-```bash
-# Install Termux from F-Droid
-pkg update && pkg upgrade
-pkg install python git
-pip install qiskit numpy
-
-# Clone and run
+🛠 Installation (Arch Linux / General Linux)
+1. Clone & Enter
 git clone https://github.com/QSOLKCB/AIMM.git
 cd AIMM
-python lambroast.py
-```
 
-#### Docker Environment
-```bash
-# Build the quantum container
-docker build -t qsolkcb/aimm .
+2. Setup Virtual Environment
+sudo pacman -S python-virtualenv
+python -m venv venv
+source venv/bin/activate
 
-# Run in quantum isolation
-docker run -it qsolkcb/aimm python lambroast.py
+3. Install Dependencies
+pip install -r requirements.txt
 
-# Mount local development
-docker run -v $(pwd):/app -it qsolkcb/aimm bash
-```
+4. Run AIMM
+python aimm.py
 
-#### Cloud Development (GitHub Codespaces)
-1. Click "Code" → "Open with Codespaces"
-2. Wait for quantum environment initialization
-3. Run `pip install -r requirements.txt`
-4. Start quantum roasting: `python lambroast.py`
 
-### Environment Variables
-```bash
-# Optional: Quantum randomness seed
-export QSOLKCB_SEED=42
+When running for the first time, AIMM will initialize its Quantum Context Pool and calibrate with your system entropy.
+On success, you’ll see:
 
-# TCPA compliance mode (default: strict)
-export TCPA_MODE=strict
+[AIMM] Ready for meme-level consciousness.
 
-# Meme intensity (1-11, default: 7)
-export MEME_LEVEL=11  # Maximum quantum trolling
-```
+⚙️ Requirements
+numpy>=1.26.4
+qiskit>=0.46.0
+qiskit-aer>=0.15.0
+torch>=2.2.0
+whisper @ git+https://github.com/openai/whisper.git
+openai>=1.12.0
 
-### Testing Your Environment
-```bash
-# Verify quantum setup
-python -c "import qiskit; print('Quantum ready!')"
 
-# Test roast generation
-python lambroast.py --test-mode
+Optional (hardware-enhanced chaos):
 
-# Check TCPA compliance
-python -c "from lambroast import verify_spam; print('Legal ready!')"
-```
+ffmpeg – for voice synthesis and roast recording
 
-## ⚖️ Legal & Ethics (Prick with Purpose)
-- **TCPA-Compliant**: Manual callbacks only, verified unsolicited spam via Android APIs + QSOLKCB hashes. No auto-dialing. [FCC Rules](https://www.fcc.gov/general/telemarketing-and-robocalls)
-- **Entertainment Only**: Roast for fun, not harassment. Consent logs baked in.
-- **Privacy**: On-device AI (Gemini Nano vibes), no data hoarding.
+libpulse / pyaudio – for live audio monitoring
 
-## 🤝 Contribute
-- Fork a repo, add your meme burns (e.g., "Pajit script? Yeeted to Wojak town!").
-- Issues? Open one: "Quantum void detected—fix the Doge viz?"
-- Collab: DM @EmergentMonk or join QSOLKCB (invite-only for now).
+twilio – for VoIP integration
 
-## 📈 Roadmap
-- **Q4 2025**: Full S23 app (Kivy build) + Snake Easter Egg (quantum apples 🐍).
-- **2026**: Meme NFT marketplace for roast recordings (Doge-ified blockchain).
-- **Beyond**: Laser-kernel VoIP for global scammer entanglement.
+🔬 Architecture
 
-**QSOLKCB: Much wow, such secure, very prank. Join the meme void.** 😎🔮🐶  
-*Powered by EmergentMonk & the #fcukscammers collective. Last updated: October 18, 2025.*
+AIMM runs as a quantum-adaptive loop built on three layers:
 
----
+Layer	Function	Stack
+🧩 Core Cognition	Meme intent parsing, entropy feedback	PyTorch + Qiskit
+🔊 Multimodal I/O	Audio + text synthesis	Whisper + Gemini/Nano
+🕶️ Optical Interface	Laser/Photon comms & RNG	QSOL Kernel
+🧰 Development Environment
+
+To ensure consistency across dev setups, QSOLKCB projects use isolated environments.
+
+sudo pacman -S python-virtualenv
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+
+This avoids PEP 668: externally-managed-environment issues and keeps the Arch Python clean.
+
+⚖️ Legal & Ethics
+
+TCPA-Compliant: Manual callbacks only; verified spam hashes via AIMM-QEC registry.
+
+No Harassment: Entertainment + research only.
+
+Privacy: Local inference, zero cloud storage.
+
+🤝 Contributing
+
+Fork the repo
+
+Branch your feature (git checkout -b feature/roast-generator)
+
+Commit (git commit -m "Added meme bias correction module")
+
+Push + PR
+
+If you break the memeverse, document it in your PR. If you fix the memeverse, you’re family.
+
+🧭 Roadmap
+Phase	Target	Status
+Q4 2025	QSOLKCB unified API	🔧 In dev
+2026	AIMM self-optimizing meme cognition	🧠 Planned
+2027	Optical meme broadcast protocol	🔬 Concept stage
+💬 Example Output
+[AIMM] Scam call detected.
+[AIMM] Entangling quantum roast...
+> "Your pitch has less coherence than a cubit at 400K."
+[AIMM] Logged: roast_2025_10_24.qlog
+
+
+AIMM – The adaptive mind behind the meme.
+Quantum-born, Python-powered, Doge-certified. 🐶🧠💥
+© 2025 QSOLKCB / EmergentMonk Labs
