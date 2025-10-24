@@ -1,5 +1,5 @@
 
-# QSOLKCB: Quantum-Secure Optical/Laser-Incorporated Meme Company (QSOL-IMC Labs)
+# QSOLKCB: Quantum-Solutions-Incorporated Meme Company (QSOL-IMC Labs)
 
 ![Doge Meme Quantum](https://via.placeholder.com/800x400/FFD700/000000?text=Much+Secure,+Very+Meme,+Wow+%F0%9F%90%B6)  
 *(Placeholder for your audio-reactive viz—drop a Rubik's cube glitch or DNA-encoded Doge here!)*
