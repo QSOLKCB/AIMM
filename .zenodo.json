@@ -1,0 +1,39 @@
+{
+  "upload_type": "software",
+  "title": "AIMM (Artificial Intelligence Mind-Mapping) v2.0.0 — Cognitive Instruments Framework",
+  "version": "2.0.0",
+  "publication_date": "2025-11-09",
+  "creators": [
+    {
+      "name": "Trent Slade",
+      "affiliation": "QSOL-IMC",
+      "orcid": "0009-0002-4515-9237"
+    }
+  ],
+  "description": "AIMM 2.0.0 transforms the QSOL cognitive-markup engine into a full-fledged reasoning language. It introduces modular semantic kernels, real-time graph compilation, AI prompt orchestration, and cross-project integrations with UFF, Spectral Algebraics, and QEC. This release formalizes AIMM as the connective framework for symbolic reasoning and multimodal creativity across the QSOL stack.",
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "keywords": [
+    "AIMM",
+    "QSOL",
+    "semantic markup",
+    "knowledge graph",
+    "AI reasoning",
+    "symbolic logic",
+    "E8",
+    "cognitive automation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/QSOLKCB/AIMM",
+      "relation": "isHostedBy",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.17510649",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    }
+  ],
+  "language": "en"
+}
