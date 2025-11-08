@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "AIMM (Artificial Intelligence Mind-Mapping) v2.0.0 — Cognitive Instruments Framework"
+version: 2.0.0
+date-released: 2025-11-09
+authors:
+  - family-names: Slade
+    given-names: Trent
+    affiliation: QSOL-IMC
+    orcid: https://orcid.org/0009-0002-4515-9237
+license: Apache-2.0
+repository-code: https://github.com/QSOLKCB/AIMM
+abstract: >
+  AIMM 2.0.0 introduces the Cognitive Instruments Framework — a unified markup,
+  reasoning, and visualization system connecting AI models, symbolic logic, and
+  multimodal creativity. It provides a modular semantic kernel, real-time
+  graph compiler, and cross-project integration with the QSOL research stack.
+message: "If you use AIMM v2.0.0 in your research or projects, please cite it using this file."
